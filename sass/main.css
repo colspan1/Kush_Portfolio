@@ -93,6 +93,7 @@ main {
 .hero_skills {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 5rem auto;
 }
 .hero_skills .tools_container {
@@ -117,6 +118,7 @@ main {
 .hero_skills .skills_container legend {
   font-size: 3rem;
   font-weight: 700;
+  margin-left: 20px;
 }
 .hero_skills .skills_container .skills {
   display: flex;
@@ -126,8 +128,12 @@ main {
   padding-inline: 1rem;
   border-right: 1px solid white;
 }
+.hero_skills .skills_container .skills p:last-child {
+  border: none;
+}
 
 .grid {
+  padding-block: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,6 +144,7 @@ main {
   padding-block: 100px;
   position: relative;
   overflow: hidden;
+  border-radius: 18px;
 }
 .grid legend {
   font-size: 10rem;
@@ -219,12 +226,8 @@ main {
   font-size: 2rem;
 }
 
-.end {
-  background-image: url(/img/4015505\ 1.png);
-  height: 2rem;
-}
-
 .grid img:hover {
-  transform: scale(1.06);
+  transform: scale(1.08);
   transition: 0.3s ease-in-out;
+  opacity: 0.4;
 }/*# sourceMappingURL=main.css.map */
